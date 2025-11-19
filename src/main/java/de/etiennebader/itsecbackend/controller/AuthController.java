@@ -1,0 +1,14 @@
+package de.etiennebader.itsecbackend.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/auth")
+public class AuthController {
+
+    @GetMapping("/test")
+    public ResponseEntity<String> testAuth() {
+        return ResponseEntity.ok("Hello World");
+    }
+}
