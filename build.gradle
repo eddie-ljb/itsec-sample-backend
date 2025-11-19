@@ -63,7 +63,7 @@ dependencies {
 
 	compileOnly 'org.projectlombok:lombok'
 
-	runtimeOnly 'io.micrometer:micrometer-registry-graphite'
+	//runtimeOnly 'io.micrometer:micrometer-registry-graphite'
 	runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 	//runtimeOnly 'org.postgresql:postgresql'
 
